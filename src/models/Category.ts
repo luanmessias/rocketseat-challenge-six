@@ -6,7 +6,7 @@ import {
   UpdateDateColumn,
 } from 'typeorm';
 
-@Entity('categries')
+@Entity('categories')
 class Category {
   @PrimaryGeneratedColumn('uuid')
   id: string;
